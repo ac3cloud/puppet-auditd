@@ -1,6 +1,7 @@
 class auditd (
   String $conf,
   String $log_file,
+  String $local_events = 'yes',
   Boolean $write_logs,
   String $log_format,
   String $log_group,
